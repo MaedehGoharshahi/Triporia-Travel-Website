@@ -6,7 +6,7 @@ function Services() {
         <section className="services">
             <div className="content">
                 <p className="title">What We Give ___</p>
-                <h1>We offer our best <span>services.</span></h1>
+                <h1>We Offer Our Best <span>Services.</span></h1>
             </div>
                 <div className='items'>
                     <i className='bx bxs-map'></i>
