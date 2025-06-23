@@ -1,0 +1,140 @@
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 200px;
+    border-radius: 15px;
+    background-color: #e0f0f9;
+    gap: 30px;
+}
+
+.introduction img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.introduction .content {
+    flex-basis: 400px;    
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.introduction .content p:nth-of-type(2) {
+    color: gray;
+}
+
+.introduction .content h1 {
+    font-size: 32px;
+}
+
+.introduction .content button {
+    background-color: #faa935;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.introduction .content button:hover {
+    transform: scale(1.08);
+}
+
+.introduction .content .options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    gap: 25px;
+}
+
+.introduction .content .options div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100px;
+}
+
+.introduction .content .options div h3 {
+    box-shadow: 1px 1px 10px gray;
+    padding: 10px;
+    color: #faa935;
+    border-radius: 3px 10px;
+}
+
+.introduction .content .options div p {
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .introduction img {
+        width: 100%;
+    }
+
+    .introduction .content {
+        flex-basis: auto;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px) {
+    .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    }
+
+    .introduction img {
+        width: 100%;
+    }
+
+    .introduction .content {
+        flex-basis: auto;
+    }
+}
+
+@media (max-width:480px) {
+    .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px;
+    }
+
+    .introduction img {
+        width: 100%;
+    }
+
+    .introduction .content {
+        flex-basis: auto;
+
+    }
+
+    .introduction .content h1 {
+        font-size: 28px;
+    }
+
+    .introduction .content .options  {
+        flex-direction: column;
+            align-items: center;
+    }
+}

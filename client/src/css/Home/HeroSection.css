@@ -92,6 +92,7 @@
 
     .hero .content {
         justify-content: center;
+        gap: 30px;
     }
  
     .hero .content h1 {

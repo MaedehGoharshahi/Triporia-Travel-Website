@@ -94,6 +94,10 @@
         padding: 0 65px;
     }
 
+    .top-destionation .content {
+        text-align: left;
+    }
+
         .top-destionation .pictures {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -123,6 +127,11 @@
 @media (max-width:480px) {
     .top-destionation {
         padding: 0;
+    }
+
+    
+    .top-destionation .content {
+        text-align: left;
     }
      
     .top-destionation .pictures {
