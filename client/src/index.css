@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  list-style-type: none;
+}
+
+body {
+  padding: 0 80px;
+  background-color: whitesmoke;
+}
+
+.title {
+  color: #faa935;
+  font-weight: bolder;
+}
+
+h1 span {
+    color: #faa935;
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+ body {
+  padding: 0 50px;
+ }   
+}
+
+@media (min-width:480px) and (max-width:768px) {
+ body {
+  padding: 0 30px;
+ }   
+}
+
+@media (max-width:480px) {
+ body {
+  padding: 0 20px;
+ }   
+}
