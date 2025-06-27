@@ -13,6 +13,7 @@ function HeroSection() {
                 <p className="title">✈️ Explore the World ___</p>
                 <h1>Make Memories Around the World with Unforgettable <span>Adventures.</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, placeat quibusdam! Necessitatibus consequuntur, dolorum voluptatibus reprehenderit, nisi fuga doloribus nobis voluptatem expedita nesciunt aut molestiae rerum culpa sed quibusdam odio.</p>
+                <button>Get Started</button>
             </div>
         </section>
      );
