@@ -1,8 +1,10 @@
 import BookingWidget from "./BookingWidget";
+import Footer from "./Footer";
 import Header from "./Header";
 import HeroSection from "./Home/HeroSection";
 import Introduction from "./Home/Introduction";
 import Services from "./Home/Services";
+import Testimonial from "./Home/Testimonial";
 import TopDestinations from "./Home/TopDestinations";
 import TopTours from "./Home/TopTours";
 
@@ -15,7 +17,9 @@ function Home() {
             <TopDestinations/>
             <Introduction/>
             <BookingWidget/>
-            <TopTours></TopTours>
+            <TopTours/>
+            <Testimonial/>
+            <Footer/>
         </>
      );
 }

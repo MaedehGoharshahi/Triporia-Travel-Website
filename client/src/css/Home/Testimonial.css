@@ -1,0 +1,144 @@
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.testimonial .content {
+    flex-basis: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial .content h1 {
+    font-size: 34px;
+}
+
+.testimonial .content p:nth-of-type(2) {
+    color: gray;
+}
+
+.testimonial .mySwiper {
+    height: 380px;
+    flex-basis: 500px;
+    position: relative;
+    padding: 0 35px;
+}
+
+.testimonial .mySwiper .swiper-pagination-bullet-active {
+    background-color: #ffa935;
+}
+
+.testimonial .mySwiper .comment {
+    background-color: rgba(128, 128, 128, 0.088);
+    border-radius: 20px;
+    padding: 10px 30px;
+    height: 350px;
+}
+
+.testimonial .mySwiper .comment .information {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.66);
+}
+
+.testimonial .mySwiper .comment .information img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.testimonial .mySwiper .comment .information h2 {
+    font-size: 18px;
+}
+
+.testimonial .mySwiper .comment div:nth-of-type(2) p {
+    color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .testimonial {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .testimonial .mySwiper {
+        margin: 0 100px;
+    }
+
+    .testimonial .mySwiper .swiper-pagination {
+        position: absolute;
+        top: 35%;
+    }
+    .testimonial .content {
+        flex-basis: auto;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px) {
+    .testimonial {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .testimonial .mySwiper {
+        margin: 0 40px;
+    }
+
+    .testimonial .mySwiper .swiper-pagination {
+        position: absolute;
+        top: 35%;
+    }
+
+    .testimonial .content {
+        flex-basis: auto;
+    }
+
+    .testimonial .content h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:480px) {
+        .testimonial {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .testimonial .mySwiper {
+        height: 420px;
+        padding: 0;
+    }
+
+    .testimonial .mySwiper .swiper-pagination {
+        position: absolute;
+        top: 35%;
+    }
+
+    .testimonial .mySwiper .comment {
+        height: 390px;
+    }
+    .testimonial .content {
+        flex-basis: auto;
+    }
+    
+    .testimonial .content h1 {
+        font-size: 30px;
+    }
+}
