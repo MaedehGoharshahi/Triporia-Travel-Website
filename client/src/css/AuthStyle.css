@@ -1,0 +1,190 @@
+.authentication {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.authentication .background {
+    width: 450px;
+    border-radius: 15px;
+}
+
+.authentication .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.authentication .content h1 {
+    font-size: 40px;
+    color: #faa935;
+    text-align: center;
+}
+
+.authentication .content p {
+    font-size: 13px;
+    color: gray;
+    text-align: center;
+}
+
+.authentication .content p span {
+    color: #faa935;
+    cursor: pointer;
+}
+
+.authentication .content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.authentication .content form input {
+    border: 1px solid #faa935;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    font-size: 15px;
+    width: 280px;
+}
+
+.authentication .content form div {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.authentication .content form div input {
+    width: 130px;
+}
+
+.authentication .content form p {
+    color: #faa935;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+}
+
+.authentication .content form button {
+    background-color: #faa935;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    width: 280px;
+    border: 3px solid #faa935;
+    transition: all 0.3s ease;
+}
+
+.authentication .content form button:hover {
+    background-color: whitesmoke;
+    color: #faa935;
+}
+
+.authentication .content p:nth-of-type(2) {
+    color: #faa935;
+    font-weight: 600;
+}
+
+.authentication .content .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.authentication .content .social img {
+    width: 47px;
+    border: 1px solid #faa935;
+    border-radius: 5px;
+    padding: 7px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.authentication .content .social img:hover {
+    background-color: #faa935;
+}
+
+.authentication .content p:nth-of-type(3) a {
+    color: #faa935;
+    cursor: pointer;
+} 
+
+@media (min-width:992px) and (max-width:1200px) {
+    .authentication .content h1 {
+        font-size: 30px;
+    }
+
+    .authentication .background {
+        width: 420px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .authentication {
+        padding: 50px 10px;
+        gap: 15px;
+    }
+    .authentication .content h1 {
+        font-size: 25px;
+    }
+
+    .authentication .background {
+        width: 350px;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px) {
+    .authentication .background {
+        display: none;
+    }
+
+    .authentication .content h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:480px) {
+    .authentication {
+        padding: 30px 10px;
+        width: 100%;
+    }
+
+    .authentication .background {
+        display: none;
+    }
+
+    .authentication .content h1 {
+        font-size: 25px;
+    }
+
+    .authentication .content form input , .authentication .content form button {
+        width: 200px;
+    }
+
+    .authentication .content form div {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .authentication .content form div input {
+        width: 200px;
+    }
+}

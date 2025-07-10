@@ -4,7 +4,6 @@ header {
     justify-content: space-between;
     align-items: center;
     background: none;
-    padding: 15px 0;
     position: relative;
 }
 
@@ -40,6 +39,10 @@ header ul li a {
 }
 
 header ul li a:hover {
+    color: #faa935;
+}
+
+header ul li .active-link {
     color: #faa935;
 }
 

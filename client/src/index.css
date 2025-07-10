@@ -10,7 +10,12 @@
   list-style-type: none;
 }
 
+html {
+  width: 100%;
+}
+
 body {
+  width: 100%;
   padding: 0 80px;
   background-color: whitesmoke;
 }
