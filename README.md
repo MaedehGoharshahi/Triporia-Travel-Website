@@ -113,8 +113,6 @@ It includes:
 
 - Fields for email and password
 
-- Option to remember user login
-
 - Quick navigation to the Register page for new users
   
 
