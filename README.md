@@ -54,9 +54,9 @@ In this section, we introduce who we are as a team and what inspires us to creat
 It covers:
 
 
-- **Who We Are**: An introduction to our team and background, sharing why we are passionate about connecting people with unforgettable destinations.
+- **Who We Are**
   
-- **Our Mission**: A clear statement of our commitment to making travel easier, safer, and more meaningful for everyone.
+- **Our Mission**
   
 
 Through this page, visitors learn not just what we offer, but why we do it — helping them feel connected to our brand and confident in choosing us for their next journey.
