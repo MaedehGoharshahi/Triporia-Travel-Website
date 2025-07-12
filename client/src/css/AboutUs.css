@@ -82,4 +82,26 @@
     .about .about-container img {
         width: 100%;
     }    
+    .about .about-title {
+        width: calc(100% + 40px);
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+    .about .about-title {
+        width: calc(100% + 100px);
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px) {
+    .about .about-title {
+        width: calc(100% + 60px);
+        margin-left: -30px;
+        margin-right: -30px;
+    }
 }

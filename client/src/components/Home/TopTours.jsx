@@ -8,7 +8,8 @@ function TopTours() {
       name: "Wild Safari Adventure in Kenya",
       price: "$ 2100",
       location: "Kenya",
-      days: "7 Days",
+      days: "7",
+      people : "25",
       score: 9.2,
       imageAdd: "/images/tours/david-clode-YV_WwNH09cI-unsplash.jpg",
     },
@@ -17,7 +18,8 @@ function TopTours() {
       name: "Luxury City Tour of Paris",
       price: "$ 3200",
       location: "France",
-      days: "5 Days",
+      days: "5",
+      people:"14",
       score: 9.5,
       imageAdd: "/images/tours/kiarash-mansouri-lPYbaH6jsBw-unsplash.jpg",
     },
@@ -26,7 +28,8 @@ function TopTours() {
       name: "Tropical Escape to Bali Beaches",
       price: "$ 1850",
       location: "Indonesia",
-      days: "6 Days",
+      days: "6",
+      people: "13",
       score: 8.7,
       imageAdd: "/images/tours/pexels-pok-rie-33563-321474.jpg",
     },
@@ -35,7 +38,8 @@ function TopTours() {
       name: "Ancient Wonders of Athens",
       price: "$ 1400",
       location: "Greece",
-      days: "4 Days",
+      days: "4",
+      people: "9",
       score: 8.3,
       imageAdd: "/images/tours/pexels-sakuratosoju-29894258.jpg",
     },
@@ -44,7 +48,8 @@ function TopTours() {
       name: "Desert Nights in Magical Morocco",
       price: "$ 1700",
       location: "Morocco",
-      days: "5 Days",
+      days: "5",
+      people: "16",
       score: 8.9,
       imageAdd: "/images/tours/manav-jain-KomOjNU97bY-unsplash.jpg",
     },
@@ -53,7 +58,8 @@ function TopTours() {
       name: "Amazon Jungle Expedition",
       price: "$ 2400",
       location: "Brazil",
-      days: "8 Days",
+      days: "8",
+      people: "20",
       score: 9.1,
       imageAdd: "/images/tours/ivars-utinans-vkQgb1lZZPQ-unsplash.jpg",
     },
@@ -62,7 +68,8 @@ function TopTours() {
       name: "Cultural Journey Through Kyoto",
       price: "$ 2300",
       location: "Japan",
-      days: "6 Days",
+      days: "6",
+      people: "18",
       score: 9.1,
       imageAdd: "/images/tours/james-pere-KGf-6WoIb3M-unsplash.jpg",
     },
@@ -71,7 +78,8 @@ function TopTours() {
       name: "Alpine Hiking & Climbing Experience",
       price: "$ 2600",
       location: "Switzerland",
-      days: "7 Days",
+      days: "7",
+      people: "6",
       score: 9.4,
       imageAdd: "/images/tours/david-magalhaes-lgdH8f69_JQ-unsplash.jpg",
     }
@@ -125,10 +133,11 @@ function TopTours() {
             <div className="tour-header">
               <h2>{item.price}</h2>
               <h1>{item.name}</h1>
+              <h3><i className='bx bx bx-map'></i> {item.location}</h3>
             </div>
             <div className="tour-info">
-              <h3><i className='bx bx bx-map'></i> {item.location}</h3>
-              <h3><i className='bx bx bx-time'></i> {item.days}</h3>
+              <h3><i className="bx bx-user"></i>  {item.people}</h3>
+              <h3><i className='bx bx bx-time'></i> {item.days} Days</h3>
             </div>
           </div>
         ))}

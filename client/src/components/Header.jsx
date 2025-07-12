@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import '../css/Header.css';
-import { Link , useLocation } from 'react-router-dom';
+import { Link , useLocation , useNavigate } from 'react-router-dom';
+
 
 
 
 function Header() {
 
     const location = useLocation();
+
+    const navigate = useNavigate();
 
     const [isMenuOpen , setIsMenuOpen] = useState(false)
 
@@ -17,7 +20,7 @@ function Header() {
     return ( 
         <header>
             <div>
-                <img src="/images/logo.png" alt=""/>
+                <img src="/images/logo.png" alt=""onClick={() => navigate('/')}/>
                 < i className='bx  bx-menu' onClick={toggleMenu}></i> 
             </div>
             <ul className={isMenuOpen ? 'active' : ''}>

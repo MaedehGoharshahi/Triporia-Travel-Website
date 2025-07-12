@@ -102,6 +102,22 @@ footer .contact ul li span {
 
 }
 
+@media (min-width:768px) and (max-width:992px) {
+    footer {
+        width: calc(100% + 100px);
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px) {
+    footer {
+        width: calc(100% + 60px);
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+}
+
 @media (min-width:480px) and (max-width:992px) {
     footer {
         grid-template-columns: repeat(2,1fr);
@@ -117,6 +133,9 @@ footer .contact ul li span {
     footer {
     grid-template-columns: 1fr;
     padding: 50px 100px;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-right: -20px;
     }
 
     footer div:nth-of-type(1) {
